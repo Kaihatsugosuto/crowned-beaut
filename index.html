@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crowned Beaut | Cosméticos premium</title>
+  <meta name="description" content="Descubra cosméticos que realçam sua beleza natural com elegância e sofisticação. Atendimento personalizado com a Kariny.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Crowned Beaut</a>
+      <a href="#produtos" class="btn btn--primary btn--sm">
+        <img src="assets/icons/header-catalogo.svg" alt="" width="20" height="20">
+        Ver Catálogo
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <span class="blur blur--hero-1" aria-hidden="true"></span>
+      <span class="blur blur--hero-2" aria-hidden="true"></span>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Você merece se sentir <br>linda todos os dias</h1>
+          <p>Descubra cosméticos que realçam sua beleza natural com elegância e sofisticação</p>
+          <a href="#produtos" class="btn btn--white">Quero realçar minha beleza</a>
+        </div>
+        <div class="hero__image">
+          <img src="assets/img/hero.png" alt="Maquiagens e cosméticos Crowned Beaut" width="1280" height="853">
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="container">
+        <h2>Não é só maquiagem. É sobre se sentir <br><em>confiante</em> todos os dias.</h2>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container features__grid">
+        <article class="feature">
+          <div class="feature__icon"><img src="assets/icons/alta-qualidade.svg" alt="" width="28" height="28"></div>
+          <h3>Alta Qualidade</h3>
+          <p>Produtos premium selecionados com ingredientes de excelência</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><img src="assets/icons/beleza-sofisticada.svg" alt="" width="28" height="28"></div>
+          <h3>Beleza Sofisticada</h3>
+          <p>Elegância e refinamento em cada detalhe</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><img src="assets/icons/cuidados-pele.svg" alt="" width="28" height="28"></div>
+          <h3>Cuidados com a Pele</h3>
+          <p>Fórmulas que nutrem e protegem sua pele</p>
+        </article>
+        <article class="feature">
+          <div class="feature__icon"><img src="assets/icons/entrega-rapida.svg" alt="" width="28" height="28"></div>
+          <h3>Entrega Rápida</h3>
+          <p>Receba seus produtos com agilidade e segurança</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="products" id="produtos">
+      <div class="container">
+        <div class="section-head">
+          <h2>Nossos Produtos</h2>
+          <p>Descubra nossa linha completa de cosméticos premium</p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Filtrar produtos por categoria">
+          <button class="filter is-active" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="skincare" role="tab" aria-selected="false">Skincare</button>
+          <button class="filter" data-filter="labios" role="tab" aria-selected="false">Lábios</button>
+          <button class="filter" data-filter="cabelos" role="tab" aria-selected="false">Cabelos</button>
+        </div>
+
+        <div class="products__grid" id="products-grid"></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <span class="blur blur--cta-1" aria-hidden="true"></span>
+      <span class="blur blur--cta-2" aria-hidden="true"></span>
+      <div class="container cta__inner">
+        <h2>Sua melhor versão começa agora</h2>
+        <p>Entre em contato conosco e descubra como nossos produtos podem transformar sua rotina de beleza</p>
+        <a href="#" class="btn btn--white btn--lg" data-whatsapp="Olá! Gostaria de saber mais sobre os produtos da Crowned Beaut.">
+          <img src="assets/icons/whatsapp-cta.svg" alt="" width="24" height="24">
+          Falar no WhatsApp
+        </a>
+        <small>Atendimento personalizado com a Kariny</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <h3 class="footer__logo">Crowned Beaut</h3>
+        <p>Realçando sua beleza natural com elegância e sofisticação. Produtos premium para mulheres que valorizam qualidade.</p>
+        <a href="#" class="footer__social" aria-label="Rede social">
+          <img src="assets/icons/footer-social.svg" alt="" width="20" height="20">
+        </a>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contato</h4>
+        <ul>
+          <li>
+            <img src="assets/icons/footer-whatsapp.svg" alt="" width="20" height="20">
+            <div>
+              <span>WhatsApp</span>
+              <a href="#" data-whatsapp="Olá! Gostaria de saber mais sobre os produtos da Crowned Beaut.">(11) 91340-9838</a>
+            </div>
+          </li>
+          <li>
+            <img src="assets/icons/footer-atendimento.svg" alt="" width="20" height="20">
+            <div>
+              <span>Atendimento</span>
+              <p>Kariny - Consultora de Beleza</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Crowned Beaut. Todos os direitos reservados.</p>
+      <small>Desenvolvido com ❤️ para realçar sua beleza</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
